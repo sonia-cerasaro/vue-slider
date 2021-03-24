@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./master.css">
+    <title>Vue Slider</title>
+  </head>
+  <body>
+
+    <div id="root">
+      <div class="slider-container">
+
+        <div class="prev">
+          <i class="fas fa-caret-left"></i>
+        </div>
+
+        <div class="pictures-container">
+          <img v-bind:src="arrayPictures[index]">
+        </div>
+
+        <div class="next">
+          <i class="fas fa-caret-right"></i>
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="main.js"></script>
+
+
+  </body>
+</html>
