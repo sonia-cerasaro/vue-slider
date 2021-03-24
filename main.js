@@ -9,12 +9,19 @@ var app = new Vue(
         'https://www.universetoday.com/wp-content/uploads/2019/01/DyGvigfWsAIzaxj.jpg',
       ]
     },
-    methods: { 
+    methods: {
       prev: function() {
         if(this.index < this.arrayPictures.length - 1){
           this.index++;
         } else {
           this.index = 0;
+        }
+      },
+      next: function() {
+        if(this.index > 0){
+          this.index--;
+        } else {
+          this.index = 2;
         }
       }
     }
