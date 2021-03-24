@@ -25,7 +25,7 @@ i {
 }
 
 i:hover {
-  color: #9f43ab;
+  color: #425eaf;
 }
 
 .dots-navigator {
@@ -40,9 +40,8 @@ i:hover {
 
 .dots-navigator > i {
   font-size: 30px;
-
 }
 
 .dots-navigator > i.active {
-  color: #5176db;
+  color: #9f43ab;
 }
