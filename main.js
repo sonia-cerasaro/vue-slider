@@ -23,6 +23,9 @@ var app = new Vue(
         } else {
           this.index = 2;
         }
+      },
+      dotClick: function(i) {
+        this.index = i;
       }
     }
   });

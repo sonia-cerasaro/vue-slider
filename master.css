@@ -23,3 +23,26 @@ i {
   font-size: 80px;
   margin: 10px;
 }
+
+i:hover {
+  color: #9f43ab;
+}
+
+.dots-navigator {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  bottom: 170px;
+}
+
+.dots-navigator > i {
+  font-size: 30px;
+
+}
+
+.dots-navigator > i.active {
+  color: #5176db;
+}
