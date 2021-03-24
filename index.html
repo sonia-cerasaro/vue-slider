@@ -12,19 +12,23 @@
     <div id="root">
       <div class="slider-container">
 
-        <div class="prev">
+        <div class="prev" @click="prev">
           <i class="fas fa-caret-left"></i>
         </div>
 
         <div class="pictures-container">
-          <img v-bind:src="arrayPictures[index]">
+          <img :src="arrayPictures[index]">
         </div>
 
-        <div class="next">
+        <div class="c next">
           <i class="fas fa-caret-right"></i>
         </div>
 
       </div>
+
+      <i class="far fa-circle"></i>
+
+
 
 
 
