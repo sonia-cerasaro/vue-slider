@@ -28,17 +28,18 @@
 
       <nav class="dots-navigator">
         <i
-        v-for="dotto in arrayPictures.length"
+        v-for="dotIndex in arrayPictures.length"
         class="far fa-circle"
-        v-bind:class= "(dotto - 1 == index) ? 'active' : '' "
-        @click='dotClick(dotto - 1)'
+        v-bind:class= "(dotIndex - 1 == index) ? 'active' : ' ' "
+        @click="dotClick (dotIndex - 1)"
         ></i>
       </nav>
+      <button type="button" name="button" @click="autoplay">AUTOPLAY</button>
 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="main.js"></script>
+    <script src="main.js" charset="utf-8"></script>
 
 
   </body>

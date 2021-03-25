@@ -19,6 +19,21 @@ img {
   border-radius: 15px;
 }
 
+button {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  bottom: 150px;
+}
+
+button:hover {
+  color: #425eaf;
+  font-weight: bolder;
+}
+
 i {
   font-size: 80px;
   margin: 10px;
